@@ -1,4 +1,12 @@
 import { Link, useParams } from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
+import styled from 'styled-components';
+import { getShowById } from '../api/tvmaze';
+import ShowMainData from '../components/shows/ShowMainData';
+import Details from '../components/shows/Details';
+import Seasons from '../components/shows/Seasons';
+import Cast from '../components/shows/Cast';
+import { TextCenter } from '../components/common/TextCenter';
 
 const Show = () => {
     const { showId } = useParams();
