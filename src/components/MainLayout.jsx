@@ -7,6 +7,7 @@ const MainLayout = () => {
     <div>
       <AppTitle />
       <Navs />
+
       <Outlet />
     </div>
   );

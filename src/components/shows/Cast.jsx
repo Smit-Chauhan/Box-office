@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import not-found from '../../lib/not-found.png';
+import NotFoundImgSrc from '../../lib/not-found.png';
 
 const Cast = ({ cast }) => {
   return (
